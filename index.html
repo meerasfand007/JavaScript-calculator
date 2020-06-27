@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <h3>Calculator</h3>
+    </div>
+    <div class="inputDiv"><input type="text" class="input" name="" id="calInput"></div>
+    <div class="main">
+
+        <div>
+            <button class="clearBtn" onclick="clearBtn()">C</button>
+        </div>
+        <div class="btnDiv">
+            <div>
+                <button class="Btn" onclick="getNum(7)">7</button>
+                <button class="Btn" onclick="getNum(8)">8</button>
+                <button class="Btn" onclick="getNum(9)">9</button>
+                <button class="Btn" onclick="getNum('*')">X</button>
+            </div>
+            <div>
+                <button class="Btn" onclick="getNum(4)">4</button>
+                <button class="Btn" onclick="getNum(5)">5</button>
+                <button class="Btn" onclick="getNum(6)">6</button>
+                <button class="Btn" onclick="getNum('-')">-</button>
+            </div>
+            <div>
+                <button class="Btn" onclick="getNum(1)">1</button>
+                <button class="Btn" onclick="getNum(2)">2</button>
+                <button class="Btn" onclick="getNum(3)">3</button>
+                <button class="Btn" onclick="getNum('+')">+</button>
+            </div>
+            <div>
+                <button class="Btn" onclick="getNum(0)">0</button>
+                <button class="Btn" onclick="getNum('.')">.</button>
+                <button class="Btn" onclick="getNum('/')">/</button>
+                <button class="Btn1" onclick=" getResult() ">=</button>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <p> &copy; Asfandyar Meer <br> Roll# WM12804. </p>
+
+</body>
+<script src="app.js"></script>
+
+</html>
